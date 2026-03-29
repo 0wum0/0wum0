@@ -1,0 +1,41 @@
+<svg viewBox="0 0 600 90" xmlns="http://www.w3.org/2000/svg" width="600" height="90">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700');
+      .bg { fill: none; }
+      .txt {
+        font-family: 'JetBrains Mono', 'Courier New', monospace;
+        font-size: 21px;
+        font-weight: 700;
+        fill: #00d4ff;
+        text-anchor: middle;
+        dominant-baseline: middle;
+        opacity: 0;
+      }
+      .cursor {
+        fill: #00d4ff;
+        animation: blink 0.75s step-end infinite;
+      }
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50%       { opacity: 0; }
+      }
+      .l1 { animation: cycle 20s ease-in-out infinite 0s;  }
+      .l2 { animation: cycle 20s ease-in-out infinite 5s;  }
+      .l3 { animation: cycle 20s ease-in-out infinite 10s; }
+      .l4 { animation: cycle 20s ease-in-out infinite 15s; }
+      @keyframes cycle {
+        0%   { opacity: 0; }
+        4%   { opacity: 1; }
+        20%  { opacity: 1; }
+        25%  { opacity: 0; }
+        100% { opacity: 0; }
+      }
+    </style>
+  </defs>
+  <rect class="bg" width="600" height="90"/>
+  <text class="txt l1" x="300" y="45">🚀 Full Stack Developer</text>
+  <text class="txt l2" x="300" y="45">🎨 UI / UX Enthusiast</text>
+  <text class="txt l3" x="300" y="45">⚡ Open Source Contributor</text>
+  <text class="txt l4" x="300" y="45">🌌 Building the Future</text>
+</svg>

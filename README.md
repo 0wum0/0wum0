@@ -11,7 +11,7 @@
 <div align="center">
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=26&duration=3000&pause=800&color=00D4FF&center=true&vCenter=true&random=false&width=540&lines=🚀+Full+Stack+Developer;🎨+UI+%2F+UX+Enthusiast;⚡+Open+Source+Contributor;🌌+Building+the+Future%2C+One+Commit+at+a+Time" alt="Typing Animation"/>
+<img src="./assets/typing.svg" alt="Typing Animation" width="540" height="90"/>
 
 <br/><br/>
 
@@ -235,7 +235,7 @@ const developer = {
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-%40wum0-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0a0a2e&color=00d4ff)](https://github.com/0wum0)
+[![GitHub](https://img.shields.io/badge/GitHub-%400wum0-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0a0a2e&color=00d4ff)](https://github.com/0wum0)
 &nbsp;
 [![Discord](https://img.shields.io/badge/Discord-Connect-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=0a0a2e&color=7000ff)](https://discord.com)
 &nbsp;
