@@ -56,11 +56,38 @@ const developer = {
 </td>
 <td width="45%" align="center" valign="middle">
 
-<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="280" style="border-radius:16px" alt="Coding"/>
+<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="280" alt="Coding"/>
 
 </td>
 </tr>
 </table>
+
+<br/>
+
+<!-- ANIMATED NEON DIVIDER -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+<!-- ██████████████████████████████████████████████ -->
+<!-- ██         FEATURED PROJECTS SECTION         ██ -->
+<!-- ██████████████████████████████████████████████ -->
+
+<h2 align="center">◈ &nbsp; F E A T U R E D &nbsp; P R O J E C T S &nbsp; ◈</h2>
+
+<br/>
+
+<div align="center">
+
+<a href="https://github.com/0wum0/2MoonsCE">
+  <img src="./assets/card-2moonsce.svg" alt="2MoonsCE – 2Moons Community Edition" width="100%"/>
+</a>
+
+<br/><br/>
+
+<a href="https://github.com/0wum0/AutoEmpire">
+  <img src="./assets/card-autoempire.svg" alt="AutoEmpire – Next-gen Automation" width="100%"/>
+</a>
+
+</div>
 
 <br/>
 
@@ -125,7 +152,7 @@ const developer = {
 </td>
 <td align="center">
 
-<img src="https://skillicons.dev/icons?i=nodejs,python,rust,go,java,express,fastapi,graphql,nginx&theme=dark&perline=9"/>
+<img src="https://skillicons.dev/icons?i=nodejs,python,rust,go,php,express,fastapi,graphql,nginx&theme=dark&perline=9"/>
 
 </td>
 </tr>
@@ -213,7 +240,7 @@ const developer = {
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/0wum0/0wum0/output/github-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/0wum0/0wum0/output/github-snake-dark.svg"/>
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/0wum0/0wum0/output/github-snake.svg"/>
   <img alt="Snake animation" src="https://raw.githubusercontent.com/0wum0/0wum0/output/github-snake-dark.svg" width="100%"/>
 </picture>
@@ -240,10 +267,6 @@ const developer = {
 [![Discord](https://img.shields.io/badge/Discord-Connect-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=0a0a2e&color=7000ff)](https://discord.com)
 &nbsp;
 [![Email](https://img.shields.io/badge/Email-Reach%20Out-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0a0a2e&color=00ff88)](mailto:contact@0wum0.dev)
-
-<br/><br/>
-
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&border=true&quote=The%20best%20way%20to%20predict%20the%20future%20is%20to%20invent%20it.&author=Alan%20Kay" alt="Quote" width="600"/>
 
 <br/><br/>
 
