@@ -1,31 +1,27 @@
-<svg viewBox="0 0 600 90" xmlns="http://www.w3.org/2000/svg" width="600" height="90">
-  <defs>
-    <style>
-      .txt {
-        font-family: 'Courier New', monospace;
-        font-size: 22px;
-        font-weight: 700;
-        fill: #00d4ff;
-        text-anchor: middle;
-        dominant-baseline: middle;
-        opacity: 0;
-      }
-      .l1 { animation: cycle 20s ease-in-out infinite 0s;  }
-      .l2 { animation: cycle 20s ease-in-out infinite 5s;  }
-      .l3 { animation: cycle 20s ease-in-out infinite 10s; }
-      .l4 { animation: cycle 20s ease-in-out infinite 15s; }
-      @keyframes cycle {
-        0%   { opacity: 0; }
-        4%   { opacity: 1; }
-        20%  { opacity: 1; }
-        25%  { opacity: 0; }
-        100% { opacity: 0; }
-      }
-    </style>
-  </defs>
-  <rect width="600" height="90" fill="none"/>
-  <text class="txt l1" x="300" y="45">Hey, ich bin 0wum0 👋</text>
-  <text class="txt l2" x="300" y="45">🚀 Full Stack Developer</text>
-  <text class="txt l3" x="300" y="45">⚡ Open Source Contributor</text>
-  <text class="txt l4" x="300" y="45">🌌 0wum0 – Building the Future</text>
+<svg viewBox="0 0 620 70" xmlns="http://www.w3.org/2000/svg" width="620" height="70">
+  <rect width="620" height="70" fill="none"/>
+
+  <text x="310" y="38" text-anchor="middle" dominant-baseline="middle"
+        font-family="'Courier New',monospace" font-size="21" font-weight="bold" fill="#00d4ff">
+    Hey, ich bin 0wum0 👋
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.2;0.25;1" dur="20s" repeatCount="indefinite"/>
+  </text>
+
+  <text x="310" y="38" text-anchor="middle" dominant-baseline="middle"
+        font-family="'Courier New',monospace" font-size="21" font-weight="bold" fill="#00d4ff">
+    🚀 Full Stack Developer
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.25;0.27;0.45;0.5;1" dur="20s" repeatCount="indefinite"/>
+  </text>
+
+  <text x="310" y="38" text-anchor="middle" dominant-baseline="middle"
+        font-family="'Courier New',monospace" font-size="21" font-weight="bold" fill="#c084fc">
+    ⚡ Open Source Builder
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.5;0.52;0.7;0.75;1" dur="20s" repeatCount="indefinite"/>
+  </text>
+
+  <text x="310" y="38" text-anchor="middle" dominant-baseline="middle"
+        font-family="'Courier New',monospace" font-size="21" font-weight="bold" fill="#00ff88">
+    🌌 0wum0 — Building the Future
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.75;0.77;0.95;1" dur="20s" repeatCount="indefinite"/>
+  </text>
 </svg>
