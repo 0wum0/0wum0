@@ -1,0 +1,111 @@
+<svg viewBox="0 0 800 210" xmlns="http://www.w3.org/2000/svg" width="800" height="210">
+  <defs>
+    <linearGradient id="bg2m" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07031a"/>
+      <stop offset="100%" stop-color="#130842"/>
+    </linearGradient>
+    <linearGradient id="bar2m" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c084fc"/>
+      <stop offset="100%" stop-color="#7e22ce"/>
+    </linearGradient>
+    <linearGradient id="btn2m" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8b00ff"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+    <radialGradient id="glow2mBg" cx="80%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#6600cc" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#07031a" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow2m" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="iconGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .card2m { animation: slideInLeft 0.85s cubic-bezier(0.16,1,0.3,1) both; }
+      @keyframes slideInLeft {
+        from { opacity:0; transform:translateX(-90px); }
+        to   { opacity:1; transform:translateX(0);     }
+      }
+      .moon { animation: moonFloat 4s ease-in-out infinite; transform-origin: 82px 105px; }
+      @keyframes moonFloat {
+        0%,100% { transform:translateY(0)   rotate(-4deg); }
+        50%     { transform:translateY(-8px) rotate(4deg);  }
+      }
+      .shimmer2m { animation: shimmer2m 3s ease-in-out infinite; }
+      @keyframes shimmer2m {
+        0%,100% { stroke-opacity:0.35; }
+        50%     { stroke-opacity:0.85; }
+      }
+      .btnPulse2m { animation: btnPulse2m 2.5s ease-in-out infinite; }
+      @keyframes btnPulse2m {
+        0%,100% { opacity:0.7; }
+        50%     { opacity:1;   }
+      }
+      .starSpin { animation: starSpin 8s linear infinite; transform-origin:760px 30px; }
+      @keyframes starSpin { to { transform:rotate(360deg); } }
+    </style>
+  </defs>
+
+  <g class="card2m">
+    <!-- Background -->
+    <rect x="1" y="1" width="798" height="208" rx="18" fill="url(#bg2m)"/>
+    <rect x="1" y="1" width="798" height="208" rx="18" fill="url(#glow2mBg)"/>
+
+    <!-- Shimmer border -->
+    <rect x="1" y="1" width="798" height="208" rx="18" fill="none"
+          stroke="url(#btn2m)" stroke-width="1.5" class="shimmer2m"/>
+
+    <!-- Left accent bar -->
+    <rect x="1" y="1" width="7" height="208" rx="3" fill="url(#bar2m)"/>
+
+    <!-- Decorative star particles -->
+    <circle cx="540" cy="22" r="1.5" fill="#c084fc" opacity="0.7"/>
+    <circle cx="580" cy="45" r="1"   fill="#8b00ff" opacity="0.5"/>
+    <circle cx="560" cy="60" r="2"   fill="#c084fc" opacity="0.4"/>
+    <circle cx="610" cy="30" r="1"   fill="#00d4ff" opacity="0.4"/>
+    <circle cx="520" cy="50" r="1.5" fill="#8b00ff" opacity="0.3"/>
+    <circle cx="760" cy="30" r="20"  fill="none" stroke="#c084fc" stroke-width="0.5" class="starSpin" opacity="0.3"/>
+
+    <!-- Icon circle -->
+    <circle cx="82" cy="105" r="54" fill="#0f063a" opacity="0.95"/>
+    <circle cx="82" cy="105" r="54" fill="none" stroke="#8b00ff" stroke-width="1" opacity="0.5"/>
+    <circle cx="82" cy="105" r="40" fill="none" stroke="#c084fc" stroke-width="0.5" opacity="0.3" stroke-dasharray="4 4"/>
+    <text x="82" y="122" text-anchor="middle" font-size="44" class="moon" filter="url(#iconGlow)">🌙</text>
+
+    <!-- Badges -->
+    <rect x="152" y="24" width="58" height="24" rx="12" fill="#4F5B93"/>
+    <text x="181" y="41" text-anchor="middle" font-family="'Courier New',monospace" font-size="12" font-weight="bold" fill="#ffffff">PHP</text>
+
+    <rect x="220" y="24" width="52" height="24" rx="12" fill="#238636"/>
+    <text x="246" y="41" text-anchor="middle" font-family="'Courier New',monospace" font-size="12" font-weight="bold" fill="#ffffff">MIT</text>
+
+    <!-- Title -->
+    <text x="152" y="90" font-family="'Courier New',monospace" font-size="30" font-weight="bold"
+          fill="#c084fc" filter="url(#glow2m)">2MoonsCE</text>
+
+    <!-- Subtitle -->
+    <text x="152" y="115" font-family="'Courier New',monospace" font-size="14" fill="#a78bca">2Moons Community Edition</text>
+
+    <!-- Description -->
+    <text x="152" y="143" font-family="'Courier New',monospace" font-size="12" fill="#6a5a8a">Open-source MMORPG server  ·  Community-driven  ·  Modern PHP</text>
+
+    <!-- Stats -->
+    <text x="152" y="178" font-family="'Courier New',monospace" font-size="14" fill="#fbbf24">★ 7 Stars</text>
+    <text x="255" y="178" font-family="'Courier New',monospace" font-size="14" fill="#8892b0">⑂ 2 Forks</text>
+    <text x="365" y="178" font-family="'Courier New',monospace" font-size="14" fill="#8892b0">◎ 1 Issue</text>
+
+    <!-- CTA Button -->
+    <rect x="600" y="80" width="178" height="46" rx="23" fill="#8b00ff" opacity="0.12"/>
+    <rect x="600" y="80" width="178" height="46" rx="23" fill="none"
+          stroke="url(#btn2m)" stroke-width="1.5" class="btnPulse2m"/>
+    <text x="689" y="109" text-anchor="middle" font-family="'Courier New',monospace"
+          font-size="13" font-weight="bold" fill="#c084fc">View Project →</text>
+
+    <!-- URL -->
+    <text x="600" y="163" font-family="'Courier New',monospace" font-size="11" fill="#3d2d6a">github.com/0wum0/2MoonsCE</text>
+  </g>
+</svg>
