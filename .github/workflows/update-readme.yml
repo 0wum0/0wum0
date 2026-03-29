@@ -1,0 +1,27 @@
+name: Update README Stats
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Update README timestamp
+        run: |
+          echo "Stats auto-refresh via external services (github-readme-stats, streak-stats)"
+          echo "Last refreshed: $(date -u)" > .last-updated
+
+      - name: Commit if changed
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add .last-updated
+          git diff --staged --quiet || git commit -m "chore: auto-update stats cache [skip ci]"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
