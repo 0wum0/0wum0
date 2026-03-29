@@ -1,17 +1,11 @@
-<!-- ██████████████████████████████████████████████ -->
-<!-- ██              HEADER SECTION              ██ -->
-<!-- ██████████████████████████████████████████████ -->
-
+<!-- HEADER -->
 <img src="https://capsule-render.vercel.app/api?type=venom&color=0:050510,30:0a0a2e,60:0d0b3e,100:120458&height=220&section=header&text=0wum0&fontSize=90&fontColor=00d4ff&animation=fadeIn&fontAlignY=55&stroke=7000ff&strokeWidth=2&desc=⚡%20Crafting%20Digital%20Masterpieces&descAlignY=75&descSize=17&descColor=8892b0" width="100%"/>
 
-<!-- ██████████████████████████████████████████████ -->
-<!-- ██           ANIMATED TYPING INTRO           ██ -->
-<!-- ██████████████████████████████████████████████ -->
-
+<!-- TYPING ANIMATION -->
 <div align="center">
 <br/>
 
-<img src="./assets/typing.svg" alt="Typing Animation" width="540" height="90"/>
+<img src="https://raw.githubusercontent.com/0wum0/0wum0/main/assets/typing.svg" alt="Typing Animation" width="540" height="90"/>
 
 <br/><br/>
 
@@ -25,13 +19,9 @@
 
 </div>
 
-<!-- ANIMATED NEON DIVIDER -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-<!-- ██████████████████████████████████████████████ -->
-<!-- ██              ABOUT ME SECTION             ██ -->
-<!-- ██████████████████████████████████████████████ -->
-
+<!-- ABOUT ME -->
 <h2 align="center">◈ &nbsp; A B O U T &nbsp; M E &nbsp; ◈</h2>
 
 <br/>
@@ -64,13 +54,9 @@ const developer = {
 
 <br/>
 
-<!-- ANIMATED NEON DIVIDER -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-<!-- ██████████████████████████████████████████████ -->
-<!-- ██         FEATURED PROJECTS SECTION         ██ -->
-<!-- ██████████████████████████████████████████████ -->
-
+<!-- FEATURED PROJECTS -->
 <h2 align="center">◈ &nbsp; F E A T U R E D &nbsp; P R O J E C T S &nbsp; ◈</h2>
 
 <br/>
@@ -78,26 +64,22 @@ const developer = {
 <div align="center">
 
 <a href="https://github.com/0wum0/2MoonsCE">
-  <img src="./assets/card-2moonsce.svg" alt="2MoonsCE – 2Moons Community Edition" width="100%"/>
+  <img src="https://raw.githubusercontent.com/0wum0/0wum0/main/assets/card-2moonsce.svg" alt="2MoonsCE" width="100%"/>
 </a>
 
 <br/><br/>
 
 <a href="https://github.com/0wum0/AutoEmpire">
-  <img src="./assets/card-autoempire.svg" alt="AutoEmpire – Next-gen Automation" width="100%"/>
+  <img src="https://raw.githubusercontent.com/0wum0/0wum0/main/assets/card-autoempire.svg" alt="AutoEmpire" width="100%"/>
 </a>
 
 </div>
 
 <br/>
 
-<!-- ANIMATED NEON DIVIDER -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-<!-- ██████████████████████████████████████████████ -->
-<!-- ██           GITHUB STATS SECTION            ██ -->
-<!-- ██████████████████████████████████████████████ -->
-
+<!-- GITHUB STATS -->
 <h2 align="center">◈ &nbsp; G I T H U B &nbsp; A N A L Y T I C S &nbsp; ◈</h2>
 
 <br/>
@@ -117,13 +99,9 @@ const developer = {
 
 <br/>
 
-<!-- ANIMATED NEON DIVIDER -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-<!-- ██████████████████████████████████████████████ -->
-<!-- ██            TECH STACK SECTION             ██ -->
-<!-- ██████████████████████████████████████████████ -->
-
+<!-- TECH STACK -->
 <h2 align="center">◈ &nbsp; T E C H &nbsp; S T A C K &nbsp; ◈</h2>
 
 <br/>
@@ -188,32 +166,24 @@ const developer = {
 
 <br/>
 
-<!-- ANIMATED NEON DIVIDER -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-<!-- ██████████████████████████████████████████████ -->
-<!-- ██            TROPHIES SECTION               ██ -->
-<!-- ██████████████████████████████████████████████ -->
-
+<!-- ACHIEVEMENTS -->
 <h2 align="center">◈ &nbsp; A C H I E V E M E N T S &nbsp; ◈</h2>
 
 <br/>
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=0wum0&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=7" width="100%" alt="Trophies"/>
+<img src="https://github-profile-trophy.vercel.app/?username=0wum0&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=4&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C" width="100%" alt="Trophies"/>
 
 </div>
 
 <br/>
 
-<!-- ANIMATED NEON DIVIDER -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-<!-- ██████████████████████████████████████████████ -->
-<!-- ██          ACTIVITY GRAPH SECTION           ██ -->
-<!-- ██████████████████████████████████████████████ -->
-
+<!-- CONTRIBUTION GRAPH -->
 <h2 align="center">◈ &nbsp; C O N T R I B U T I O N &nbsp; G R A P H &nbsp; ◈</h2>
 
 <br/>
@@ -226,13 +196,9 @@ const developer = {
 
 <br/>
 
-<!-- ANIMATED NEON DIVIDER -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-<!-- ██████████████████████████████████████████████ -->
-<!-- ██           SNAKE ANIMATION SECTION         ██ -->
-<!-- ██████████████████████████████████████████████ -->
-
+<!-- SNAKE -->
 <h2 align="center">◈ &nbsp; C O N T R I B U T I O N &nbsp; S N A K E &nbsp; ◈</h2>
 
 <br/>
@@ -249,13 +215,9 @@ const developer = {
 
 <br/>
 
-<!-- ANIMATED NEON DIVIDER -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-<!-- ██████████████████████████████████████████████ -->
-<!-- ██           CONNECT / SOCIALS SECTION       ██ -->
-<!-- ██████████████████████████████████████████████ -->
-
+<!-- CONNECT -->
 <h2 align="center">◈ &nbsp; C O N N E C T &nbsp; W I T H &nbsp; M E &nbsp; ◈</h2>
 
 <br/>
